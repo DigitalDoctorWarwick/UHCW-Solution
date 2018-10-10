@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#00A9CE"
+        android:padding="8dp"
+        android:scaleType="fitStart"
+        android:src="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/university_hospital"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/logo"
+        android:scaleType="centerCrop"
+        android:src="@drawable/university_hospital" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/university_hospital"
+        android:layout_alignTop="@id/university_hospital"
+        android:alpha="0.8"
+        android:background="@android:color/white" />
+
+    <TextView
+        android:id="@+id/hospital_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:padding="8dp"
+        android:text="University Hospital Coventry, which was opened in 2006, is one of the most modern healthcare facilities in Europe with 1,005 beds, 26 operating theatres and state-of-the-art equipment."
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/find_us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hospital_info"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#005EB8"
+        android:padding="8dp"
+        android:text="Find Us"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/find_us"
+        android:padding="8dp"
+        android:text="University Hospital\nClifford Bridge Road\nCoventry\nCV2 2DX\n\nSwitchboard: 024 7696 4000"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+</RelativeLayout>
