@@ -2,4 +2,7 @@
     <string name="app_name">UHCW</string>
     <string name="hospital_text">University Hospital Coventry, which was opened in 2006, is one of the most modern healthcare facilities in Europe with 1,005 beds, 26 operating theatres and state-of-the-art equipment.</string>
     <string name="find_us_text">University Hospital\nClifford Bridge Road\nCoventry\nCV2 2DX\n\nSwitchboard: 024 7696 4000</string>
+    <string name="nhs_logo">NHS Logo</string>
+    <string name="uhcw_background">UHCW Background</string>
+    <string name="find_us">Find Us</string>
 </resources>
